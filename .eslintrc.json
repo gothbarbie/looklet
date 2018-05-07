@@ -1,0 +1,57 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "standard-react",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "babel",
+    "react",
+    "flowtype"
+  ],
+  "rules": {
+    "key-spacing": 0,
+    "no-var": 2,
+    "no-unused-vars": 2,
+    "prefer-const": 2,
+    "space-before-blocks": [
+      "error",
+      "always"
+    ],
+    "space-before-function-paren": [
+      "error",
+      "always"
+    ],
+    "semi": [
+      "error",
+      "never"
+    ],
+    "jsx-quotes": [
+      2,
+      "prefer-double"
+    ],
+    "object-curly-spacing": [
+      2,
+      "always"
+    ],
+    "react/jsx-sort-props": 1,
+    "react/prefer-es6-class": 2,
+    "react/prefer-stateless-function": 2,
+    "react/no-unused-prop-types": 0,
+    "no-unused-expressions": 0,
+    "comma-dangle": [
+      2,
+      "always-multiline"
+    ],
+    "flowtype/define-flow-type": 1,
+    "flowtype/use-flow-type": 1
+  }
+}
